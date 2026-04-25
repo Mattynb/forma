@@ -11,7 +11,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react(), tailwindcss()],
-    base: "/forma/",
+    //base: "/forma/",
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
